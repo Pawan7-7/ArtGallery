@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black-color: #151515;
+  --brown-color: #d5966c;
+  --white-color: #fff;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  font-family: "Outfit", "Arial", sans-serif;
+  color: var(--black-color);
+}
+
+p {
+  line-height: 1.45rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Big Shoulders Display", "Lucida Calligraphy", cursive;
+}
+header {
+  display: flex;
+}
+#header-img {
+  width: 45vw;
+  height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 11.8125rem;
+  left: 13.6rem;
+  font-size: 4.3rem;
+  line-height: 4rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--white-color) 0,
+    var(--white-color) 3em,
+    var(--black-color) 3em,
+    var(--black-color) 5em
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pre-black {
+  background-color: var(--black-color);
+  width: 38vw;
+  height: 100vh;
+}
+.head-para {
+  position: absolute;
+  top: 8.8125rem;
+  left: 47.6rem;
+  width: 15.625rem;
+}
+.head-button {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 18.8125rem;
+  left: 47.6rem;
+  width: 12.625rem;
+  height: 3.375rem;
+  background-color: var(--black-color);
+
+  text-decoration: none;
+}
+#loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown-color);
+  height: 100%;
+  width: 30%;
+}
+#locp {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  color: var(--white-color);
+}

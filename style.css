@@ -128,8 +128,9 @@ h3 {
 }
 #second__img {
   width: 48vw;
-  height: 100vh;
+  height: vh;
   margin-left: 10.9375rem;
+  border: 0.125rem solid var(--white-color);
 }
 .final {
   width: 34vw;
@@ -142,16 +143,38 @@ h3 {
 #pid {
   width: 20vw;
 }
-h3 {
-  width: 20vw;
+.footer__tag {
+  width: 11vw;
+  font-size: 1.6rem;
 }
 #last__content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 5.4rem;
   background-color: var(--black-color);
   color: var(--white-color);
   height: 48vh;
   width: 33vw;
+}
+#pid {
+  margin-top: 0.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--black-color);
+  height: 25vh;
+  width: 100vw;
+  color: var(--white-color);
+}
+.footer__para {
+  width: 33vw;
+}
+.footer__logo a {
+  padding: 0.2rem;
+  fill: var(--white-color);
+  text-decoration: none;
 }

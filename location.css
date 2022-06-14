@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black-color: #151515;
+  --brown-color: #d5966c;
+  --white-color: #fff;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  font-family: "Outfit", "Arial", sans-serif;
+  color: var(--black-color);
+}
+
+p {
+  line-height: 1.45rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Big Shoulders Display", "Lucida Calligraphy", cursive;
+}
+.locheader {
+  display: flex;
+}
+.head-buttonl {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+
+  left: 3.1rem;
+  width: 12.625rem;
+  height: 3.375rem;
+  background-color: var(--black-color);
+
+  text-decoration: none;
+}
+#locl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown-color);
+  height: 100%;
+  width: 30%;
+}
+#locpl {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  color: var(--white-color);
+}
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+.loc__section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+#loc__info__sub__para {
+  line-height: 2;
+}
+.loc__info__para {
+  width: 40vw;
+}
+.loc__header {
+  font-size: 3rem;
+}
+.loc__info__header {
+  font-size: 1.4rem;
+  color: var(--brown-color);
+}
+#footer__loc {
+  margin-top: 0.1rem;
+}
